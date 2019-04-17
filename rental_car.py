@@ -1,0 +1,7 @@
+{
+	"cmd": ["/usr/local/bin/python3", "-u", "$file"],
+}
+
+car = input("What kind of rental car would you like? ")
+
+print("Let me see if I can find you a " + car.title() + ".")
